@@ -40,7 +40,7 @@ app.use((req, res, next) => {
 })
 app.get('/', function (req, res) {
     // res.sendFile('dist/index.html')
-    res.sendFile(path.resolve('src/client/views/index.html'))
+    res.sendFile(path.resolve('dist/index.html'))
 })
 // INFO: a route that handling post request for new URL that coming from the frontend
 app.post('/add-url', async (req, res) => {
