@@ -1,0 +1,32 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    form {
+        border: none;
+        padding: 1rem;
+
+        input{
+            border: none;
+            padding: 0.5rem 1rem;
+        }
+        button{
+            all:unset;
+            background-color: rgb(31, 84, 146);
+            padding: 0.5rem 1rem;
+            color: whitesmoke;
+            border-radius: 20px;
+            cursor: pointer;
+            &:hover{
+                box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.226);
+            }
+        }
+    }
+}
+
+#second_section{
+    display: flex;
+    flex-direction: column;
+
+}
