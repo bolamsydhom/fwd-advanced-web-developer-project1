@@ -3,7 +3,7 @@
 // import {handleSubmit} from '../src/client/js/formHandler.js';
 import handleSubmit from '../js/formHandler';
 import 'babel-polyfill'
-require('regenerator-runtime');
+// require('regenerator-runtime');
 
 // import {post} from '../src/client/js/formHandler.js';
 

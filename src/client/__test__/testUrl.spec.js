@@ -1,7 +1,7 @@
 
 import checkUrl from '../js/checkURL';
 import 'babel-polyfill'
-require('regenerator-runtime');
+// require('regenerator-runtime');
 
 describe('Test check url functionality', () => {
     test('Testing the checkUrl function defined or not', () => {

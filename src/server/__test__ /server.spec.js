@@ -1,7 +1,7 @@
 // to solve ReferenceError: regeneratorRuntime is not defined
 // https://knowledge.udacity.com/questions/174638
 import 'babel-polyfill'
-require('regenerator-runtime');
+// require('regenerator-runtime');
 
 describe('Server Test', () => {
     
